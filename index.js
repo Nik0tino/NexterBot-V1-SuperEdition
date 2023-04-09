@@ -1,5 +1,4 @@
 //packages
-//all hello
 const express = require("express");
 const app = express();
 const { Client, GatewayIntentBits, Collection, Partials, EmbedBuilder, SlashCommandBuilder } = require("discord.js");
@@ -28,7 +27,7 @@ const ownerid = (config.ownerid);
 const ownername = (config.ownername);
 const color = (config.color)
 const PORT = process.env.PORT || 3000
-const token = process.env.token
+const token = process.env.token || config.token
 
 //music
 client.distube = new DisTube(client, {
@@ -181,23 +180,23 @@ client.distube
 // //Logs
 
 client.on('guildCreate', (guild) => {
-  let logchannel = client.channels.cache.find(c => c.id === '1037604791863488533');
+  let logchannel = client.channels.cache.find(c => c.id === '1094510122165870692');
   logchannel.send(`Joined **${guild.name}** Guild Id **${guild.id}** Owned By **<@${guild.ownerId}> ( ${guild.memberCount} Member )**`).catch(err => {
     console.log('Err In Guild Create')
   })
 
 })
 //Fake Leave
-// client.on("guildCreate", guild => {
-//   if (guild.memberCount < 10) {
-//     guild.leave()
-//   }
-// })
+client.on("guildCreate", guild => {
+  if (guild.memberCount < 10) {
+    guild.leave()
+  }
+})
 
 //Logs Leave
 
 client.on('guildDelete', (guild) => {
-  let logchannel = client.channels.cache.find(c => c.id === '1037604792865931324');
+  let logchannel = client.channels.cache.find(c => c.id === '1094510123281547285');
   logchannel.send(`Leaved **${guild.name}** Owned By **<@${guild.ownerId}> ( ${guild.memberCount} Member )**`).catch(err => {
     console.log('Err In Guild Delete')
   })
@@ -260,7 +259,7 @@ app.all('*', (req, res) => {
 })
 //Links
 app.get('/support', (req, res) => {
-  res.redirect('https://discord.gg/9XqzjTUwhA')
+  res.redirect('https://discord.gg/bKwprVg3WE')
 })
 
 app.get('/invite', (req, res) => {

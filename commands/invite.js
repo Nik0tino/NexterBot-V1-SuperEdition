@@ -20,7 +20,7 @@ module.exports = {
           let embed = new EmbedBuilder()
             .setColor(color)
             .setAuthor({ name: `${interaction.client.user.username} Invite Link`, iconURL:`${interaction.client.user.avatarURL({ dynanic: true })}` })
-            .setDescription(`**\<:heart:1034129561975259316> ${interaction.user.username}, Thanks for adding me!.**`)
+            .setDescription(`**\:heart: ${interaction.user.username}, Thanks for adding me!.**`)
             .setTimestamp()
             .setFooter({ text: `Request by ${interaction.user.username}`, iconURL:`${interaction.user.avatarURL({ dynanic: true })}` })
 

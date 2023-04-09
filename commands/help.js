@@ -35,11 +35,11 @@ module.exports = {
 
           .addFields(
 
-            { name: '> \<:users:1034515746883117238> | **Public**', value: `** \`avatar\` \`ping\` \`servericon\` \`serverid\` \`server\` \`ip\` \`bot\` \`user\` \`invite\` **`, inline: true },
+            { name: '> **Public**', value: `** \`avatar\` \`ping\` \`userid\` \`servericon\` \`serverid\` \`server\` \`ip\` \`bot\` \`user\` \`invite\` **`, inline: true },
 
-            { name: '> \<:moderation:1034515768471203840> | **Moderation**', value: `** \`ban\` \`kick\` \`clear\` \`unban\` \`lock\` \`unlock\` \`hide\` \`unhide\` **`, inline: true },
+            { name: '> **Moderation**', value: `** \`ban\` \`kick\` \`clear\` \`unban\` \`lock\` \`unlock\` \`hide\` \`unhide\` **`, inline: true },
 
-            { name: '> \<:Music1:1034521473135673415> | **Music**', value: `** \`play\` \`stop\` \`pause\` \`resume\` \`skip\` \`activities\` \`queue\` **`, inline: true })
+            { name: '> **Music**', value: `** \`play\` \`stop\` \`pause\` \`resume\` \`skip\` \`activities\` \`queue\` **`, inline: true })
 
           .setTimestamp()
           .setFooter({ text: `Request by ${interaction.user.username}`, iconURL: `${interaction.user.avatarURL({ dynanic: true })}` })

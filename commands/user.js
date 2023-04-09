@@ -24,11 +24,7 @@ module.exports = {
         .setColor(color)
         .setAuthor({ name: `${interaction.client.user.username} User's info`, iconURL:`${interaction.client.user.avatarURL({ dynanic: true })}` })
         .setTitle(`Checking \`${user.user.tag}\` Informations`)
-        .setDescription(`**\<:heart:1034129561975259316> UserName: ${user.user.username}
-
-        \🆔 UserID: ${user.id}
-
-        \⌛ Joined Discord: <t:${parseInt(user.user.createdTimestamp / 1000)}:R>
+        .setDescription(`**\⌛ Joined Discord: <t:${parseInt(user.user.createdTimestamp / 1000)}:R>
 
         \⌛ Joined Server: <t:${parseInt(user.joinedTimestamp / 1000)}:R>
         **`)

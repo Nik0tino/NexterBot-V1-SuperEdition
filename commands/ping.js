@@ -18,7 +18,7 @@ module.exports = {
       new EmbedBuilder()
       .setColor(color)
       .setAuthor({ name: `${interaction.client.user.username} Ping`, iconURL:`${interaction.client.user.avatarURL({ dynanic: true })}` })
-      .addFields({ name: `\<:heart:1034129561975259316> | Hello 👋 My Ping Is`, value: `<:icon_goodping:1034855192757284975> | **${interaction.client.ws.ping}ms**` },)
+      .addFields({ name: `\:heart: | Hello My Ping Is`, value: `---> **${interaction.client.ws.ping}ms**` },)
       .setTimestamp()
       .setFooter({ text: `Request by ${interaction.user.username}`, iconURL:`${interaction.user.avatarURL({ dynanic: true })}` })
     

@@ -24,21 +24,21 @@ module.exports = {
         new EmbedBuilder()
         .setColor(color)
         .setAuthor({ name: `${interaction.client.user.username} Server's info`, iconURL:`${interaction.client.user.avatarURL({ dynanic: true })}` })
-        .setDescription(`**\<:MarkCheck:1034517992320544869> Server name : ${interaction.guild.name}
+        .setDescription(`**\🌐 Server name : ${interaction.guild.name}
 
         \🆔 Server ID: ${interaction.guild.id}
 
-        \<:online:1034129624168398869> Members online: ${online}
+        \:green_circle: Members online: ${online}
 
-        \<:offline:1034221478343868547> Members offline: ${offline}
+        \:red_circle:  Members offline: ${offline}
 
-        \<:users:1034515746883117238> Total Members : ${interaction.guild.memberCount}
+        \:busts_in_silhouette: Total Members : ${interaction.guild.memberCount}
 
         \#️⃣ Channels count : ${interaction.guild.channels.cache.size}
 
-        \<:icon_tube:1034517294895874048> Roles count : ${interaction.guild.roles.cache.size}
+        \🧪 Roles count : ${interaction.guild.roles.cache.size}
 
-        \<:icon_crown:1034517326411874315> Server owner : <@${interaction.guild.ownerId}>**`)
+        \:crown: Server owner : <@${interaction.guild.ownerId}>**`)
         .setTimestamp()
         .setFooter({ text: `Request by ${interaction.user.username}`, iconURL:`${interaction.user.avatarURL({ dynanic: true })}` })
       ]})

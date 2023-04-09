@@ -13,7 +13,7 @@ module.exports = {
     .setDescription('Replies with serverid'),
   async execute(interaction, client) {
    
-      await interaction.reply(`Server ID : ${interaction.guild.id}`)
+    await interaction.reply(`Server ID : ${interaction.guild.id}`)
     
 .catch(err => {
       
