@@ -35,7 +35,7 @@ module.exports = {
 
           .addFields(
 
-            { name: '> **Public**', value: `** \`avatar\` \`ping\` \`userid\` \`servericon\` \`serverid\` \`server\` \`ip\` \`bot\` \`user\` \`invite\` **`, inline: true },
+            { name: '> **Public**', value: `** \`avatar\` \`ping\` \`userid\` \`servericon\` \`serverid\` \`server\` \`ip\` \`bot\` \`user\` \`invite\` \`support\` **`, inline: true },
 
             { name: '> **Moderation**', value: `** \`ban\` \`kick\` \`clear\` \`unban\` \`lock\` \`unlock\` \`hide\` \`unhide\` **`, inline: true },
 
