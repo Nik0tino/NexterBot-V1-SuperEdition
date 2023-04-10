@@ -22,7 +22,7 @@ module.exports = {
       .addComponents(
         new ButtonBuilder()
           .setLabel("Support")
-          .setURL(`https://discord.com/invite/sa2V8xBNFa`)
+          .setURL(`https://discord.gg/bKwprVg3WE`)
           .setEmoji("🔗")
           .setStyle(ButtonStyle.Link)
       )
