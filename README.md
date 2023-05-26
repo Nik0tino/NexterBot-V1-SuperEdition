@@ -2,8 +2,8 @@ Certainly! Here's an example README for your Discord bot project with a website:
 
 # Discord Bot with Website
 
-![Discord Bot with Website]()
-https://github.com/MikroBoxx/NexterBot-V1-SuperEdition/assets/105008048/280a8fc7-98b1-476e-9d2e-0fc2a5f35ad8
+![image](https://github.com/MikroBoxx/NexterBot-V1-SuperEdition/assets/105008048/47cf1c7d-527e-43b1-9bce-84a5fa8817c6)
+
 ## Overview
 
 This project is a Discord bot that includes a website for additional functionalities and information. The bot is designed to enhance your Discord server experience by providing various features, including music playback, moderation tools, and public commands. The website complements the bot, offering additional features, settings, and support options.
