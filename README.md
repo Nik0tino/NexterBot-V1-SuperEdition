@@ -76,8 +76,8 @@ Make sure to replace the values with your specific configurations. The `ownerid`
 
 ## Contact
 
-If you have any questions, feedback, or need assistance, feel free to reach out to Discord user `chentouf#3066` or send an email to `bilalchen207@gmail.com`.
+If you have any questions, feedback, or need assistance, feel free to reach out to Discord user `Nik0tino` or send an email to `bilalchentouf102@gmail.com`.
 
 Enjoy using the Discord bot and website!
 
-You can find the project on GitHub: [NexterBot-V1-SuperEdition](https://github.com/MikroBoxx/NexterBot-V1-SuperEdition)
+You can find the project on GitHub: [NexterBot-V1-SuperEdition](https://github.com/Nik0tino/NexterBot-V1-SuperEdition)
