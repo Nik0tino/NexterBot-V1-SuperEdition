@@ -2,7 +2,7 @@ Certainly! Here's an example README for your Discord bot project with a website:
 
 # Discord Bot with Website
 
-![image](https://github.com/MikroBoxx/NexterBot-V1-SuperEdition/assets/105008048/47cf1c7d-527e-43b1-9bce-84a5fa8817c6)
+![image](https://github.com/Nik0tino/NexterBot-V1-SuperEdition/assets/105008048/47cf1c7d-527e-43b1-9bce-84a5fa8817c6)
 
 ## Overview
 
@@ -14,7 +14,7 @@ To install and run this Discord bot with a website, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/MikroBoxx/NexterBot-V1-SuperEdition.git
+   git clone https://github.com/Nik0tino/NexterBot-V1-SuperEdition.git
    ```
 
 2. Install dependencies:
